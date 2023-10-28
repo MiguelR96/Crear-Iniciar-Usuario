@@ -20,8 +20,7 @@ def iniciar_sesion():
                 print("Bienvenido")
                 break
             else:
-                print("Acceso Denegado")
-                break
+                print("Usuario o Coontraseña no existente\nIntentelo de nuevo\n")
 
 def crear_cuenta():
     id = input("Nombre de Usuario: ")
